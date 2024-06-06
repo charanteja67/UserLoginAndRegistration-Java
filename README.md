@@ -19,17 +19,11 @@ Before you begin, ensure you have met the following requirements:
 3. Execute the following SQL script to create the necessary table:
 
     ```sql
-    CREATE DATABASE userdb;
-
-    USE userdb;
-
-    CREATE TABLE users (
-        id INT NOT NULL AUTO_INCREMENT,
-        username VARCHAR(50) NOT NULL,
-        password VARCHAR(50) NOT NULL,
-        email VARCHAR(50) NOT NULL,
-        PRIMARY KEY (id)
-    );
+    create database Userinfo;
+    use Userinfo;
+    create table users(id int primary key auto_increment,uname varchar(50),upwd varchar(50),uemail varchar(50),umobile varchar(20));
+    desc users;
+    select*from users;
     ```
 
 ## Configuration
