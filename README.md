@@ -65,5 +65,5 @@ Before you begin, ensure you have met the following requirements:
 ### Login Page
 
 - Access the login page
-- Enter your registered username and password to log in.
+- Enter your registered username(your email) and password to log in.
 
